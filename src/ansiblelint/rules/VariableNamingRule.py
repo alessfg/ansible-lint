@@ -53,7 +53,7 @@ class VariableNamingRule(AnsibleLintRule):
         'MEDIUM'  # ansible-lint displays severity when with --parseable-severity option
     )
     tags = ['formatting', 'readability', 'experimental']
-    version_added = 'v5.0.7'
+    version_added = 'v5.0.8'
 
     def recursive_items(
         self, dictionary: Dict[str, Any]
